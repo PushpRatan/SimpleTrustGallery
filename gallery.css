@@ -13,19 +13,42 @@ body {
 
 .wrap{
 	display: flex;
-	gap: 1em;
+	gap: 2em;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 80%;
-	max-width: 1120px;
-	margin: auto;
-}
-.cards img{
+	max-width: 1200px;
 	margin: auto;
 }
 
+.img{
+	width: 100%;
+	height: 190px;
+
+}
+
+.cards img{
+	margin: auto;
+
+}
+
+
+
+
+
 .cards{
-	width: 250px;
-	padding: 10px;
+	width: 45%;
+	min-width: 250px;
+	border-radius: 10px;
+	overflow: hidden;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.cards h3{
+	padding: 5px;
+	text-align: center;
+	padding-bottom: 5px;
+	color: white;
+	text-decoration: underline dashed;
+	font-size: 1.5em;
 }
