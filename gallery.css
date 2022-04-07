@@ -28,8 +28,18 @@
   height: 190px;
 } */
 
+/* .gal-head h2{
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    border-bottom: 4px solid #4169e1;
+} */
+
 .cards img {
-  width: 100%; 
+  width: 100%;
   overflow: hidden;
   object-fit: cover;
   margin: auto;
