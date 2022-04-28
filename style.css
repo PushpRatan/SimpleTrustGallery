@@ -1698,7 +1698,8 @@ ul.tabs-nav .tab-nav.active {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .page-header {
-  background: url(images/portfolio-bg.jpg) no-repeat center;
+  opacity: 0.8;
+  background: url(images/about1.jpg) no-repeat center;
 }
 
 .portfolio-wrap {

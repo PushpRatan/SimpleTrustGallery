@@ -45,6 +45,6 @@
   text-align: center;
   padding-bottom: 5px;
   color: white;
-  text-decoration: underline dashed;
+  /* text-decoration: underline dashed; */
   font-size: 1.5em;
 }
