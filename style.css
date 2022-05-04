@@ -2223,7 +2223,7 @@ ul.tabs-nav .tab-nav.active {
   color: #1e2833;
   /* background: url("images/foot-bg.jpg") no-repeat center; */
   /* background-size: cover; */
-  z-index: 99;
+  /* z-index: 99; */
 }
 
 .footer-widgets::after {
