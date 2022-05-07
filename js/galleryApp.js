@@ -23,11 +23,15 @@ class Modal {
   }
   
   openModal() {
+    document.documentElement.style.overflow = 'hidden';
+    document.body.scroll = "no";
     modalableImages.forEach((btn) => (btn.tabIndex = '-1'));
     this.modal.removeAttribute('hidden');
     this.modal.classList.add('active');
   }
   closeModal() {
+    document.documentElement.style.overflow = 'scroll';
+    document.body.scroll = "yes";
     modalTrack.style.transition = 'none';
     isMoving = false;
     modalableImages.forEach((btn) => (btn.tabIndex = '0'));
@@ -42,6 +46,7 @@ class Modal {
   }
 }
 const modal = new Modal(modalContainer);
+
 
 function showActiveIndicator(){
   modalIndicators.forEach((i) => i.classList.remove('active'));
